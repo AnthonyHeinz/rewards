@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import './App.css';
 import Login from './login/Login.jsx';
 import Register from './register/Register.jsx';
-import BusDash from "../dashboard/BusDash";
-import CustomerDash from "../dashboard/CustomerDash.jsx";
+import BusDash from "./dashboard/BusDash.jsx";
+import CustomerDash from "./dashboard/CustomerDash.jsx";
 
 function App() {
   return (
